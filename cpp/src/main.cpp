@@ -1,11 +1,10 @@
 #include <stdlib.h>
-#include <iostream>
 
 #include "Hello.h"
 
 int main(int argc, char *argv[])
 {
-    std::cout << system("gcc -v") << std::endl;
+    system("gcc -v");
 
     Hello hello;
 
