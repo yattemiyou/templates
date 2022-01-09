@@ -1,6 +1,7 @@
 #include <stdlib.h>
 
 #include "Hello.h"
+#include "Sample.h"
 
 int main(int argc, char *argv[])
 {
@@ -9,6 +10,8 @@ int main(int argc, char *argv[])
     Hello hello;
 
     hello.say();
+
+    execute();
 
     return 0;
 }
